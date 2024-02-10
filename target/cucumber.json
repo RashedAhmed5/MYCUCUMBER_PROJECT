@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "validation-demoblaze;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5345674200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Application URL",
+            "match": {
+              "location": "Stefdf.open_Application_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 661775600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click cart link",
+            "match": {
+              "location": "Stefdf.click_cart_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490927400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify cart page display",
+            "match": {
+              "location": "Stefdf.verify_cart_page_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@grs"
+          }
+        ]
+      }
+    ],
+    "name": "Validation demoblaze",
+    "description": "",
+    "id": "validation-demoblaze",
+    "keyword": "Feature",
+    "uri": "demoblaze.feature"
+  }
+]
